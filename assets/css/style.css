@@ -20,7 +20,7 @@
 }
 
 #debug .container{
-    height: 100px;
+    height: 200px;
     background-color: aqua;
 
 }
@@ -29,27 +29,31 @@
 
 
 
-.flex-container{
+.flex-container .menu-left {
   
     display: flex;
     justify-content: left;
+}
+.flex-container .menu-right{
     
-
+    display: flex;
+    justify-content: right;
 }
 
 .menu-left{
     
     padding-right: 1rem;
     padding-left: 1rem;
-    text-decoration: none; 
-        
-        
-    
-    img, a{padding: 1rem 1rem;
+    img, a{padding: 1rem 1rem;text-decoration: none; 
 
     }
+}
+.menu-right{
     
-
     
+    padding-right: 1rem;
+    padding-left: 1rem;
+     a{padding: 1rem 1rem;text-decoration: none; 
 
+    }
 }
