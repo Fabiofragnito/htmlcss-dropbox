@@ -20,24 +20,24 @@
 }
 
 #debug .flex-container{
-    height: 100px;
+    min-height: 50px;
     background-color: aqua;
 
 }
 #debug .jumbotron{
-    height: 500px;
+    min-height: 500px;
     background-color: red;
 
 }
 #debug .container-sm{
-    height: 300px;
+   min-height:  300px;
     background-color: green;
     width: 80%;
     margin: auto;
 
 }
 #debug .row{
-    height: 250px;
+    min-height: 250px;
     background-color: yellow;
     display: flex;
     flex-direction: row;
@@ -45,7 +45,7 @@
 
 }
 #debug .col-4{
-    height: 200px;
+    min-height: 200px;
     width: calc((100% / 12) * 4);
     background-color: lightskyblue;
     
@@ -53,10 +53,12 @@
 
 }
 #debug .col-8{
-    height: 200px;
+    min-height: 200px;
     width: calc((100% / 12) * 8);
     background-color: lightslategray;
 }
+
+/* end debug area */
 
 
 .flex-container{
@@ -78,5 +80,24 @@
     
     a{padding: 1rem 1rem;text-decoration: none; 
 
+    }
+}
+
+.title-jumbotron{
+
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.col-4{
+    p{
+       padding: 0 1rem;
+    }
+
+    button{
+        color: white;
     }
 }
