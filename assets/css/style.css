@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bg-button:#0061ff;
+    --bg-primary:#b4d0e7;
+}
 /* debug area */
 
 #debug *{
@@ -41,6 +45,7 @@
     background-color: yellow;
     display: flex;
     flex-direction: row;
+    
    
 
 }
@@ -99,5 +104,15 @@
 
     button{
         color: white;
+        background-color: var(--bg-button);
+        height: 40px;
+        padding: 1rem 1rem;
+        line-height: 7px;
+        margin-top: 30px;
+    }
+    div{
+        margin-top: 30px;
     }
 }
+
+
