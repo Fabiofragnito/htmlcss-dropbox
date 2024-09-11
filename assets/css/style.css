@@ -26,34 +26,21 @@
 }
 
 
-
-
-
-.flex-container .menu-left {
-  
+.flex-container{
     display: flex;
-    justify-content: left;
-}
-.flex-container .menu-right{
+    justify-content: space-between;
+    align-items: center;
     
-    display: flex;
-    justify-content: right;
 }
 
-.menu-left{
+
+
+
+.menu-left, .menu-right{
     
     padding-right: 1rem;
     padding-left: 1rem;
-    img, a{padding: 1rem 1rem;text-decoration: none; 
-
-    }
-}
-.menu-right{
-    
-    
-    padding-right: 1rem;
-    padding-left: 1rem;
-     a{padding: 1rem 1rem;text-decoration: none; 
+    a{padding: 1rem 1rem;text-decoration: none; 
 
     }
 }
