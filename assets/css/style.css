@@ -1,0 +1,55 @@
+/* common area */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* debug area */
+
+#debug *{
+    border: 1px dashed;
+
+}
+
+#debug header{
+    background-color: orange;
+    border: 1px dashed;
+    
+}
+
+#debug .container{
+    height: 100px;
+    background-color: aqua;
+
+}
+
+
+
+
+
+.flex-container{
+  
+    display: flex;
+    justify-content: left;
+    
+
+}
+
+.menu-left{
+    
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: none; 
+        
+        
+    
+    img, a{padding: 1rem 1rem;
+
+    }
+    
+
+    
+
+}
