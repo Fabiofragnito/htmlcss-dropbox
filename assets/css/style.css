@@ -15,7 +15,7 @@
 #debug *{
     border: 1px dashed;
 
-}
+} */
 
 #debug header{
    
@@ -23,34 +23,32 @@
     
 }
 
-#debug .flex-container{
-    min-height: 50px;
-    
 
+#debug .flex-container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#debug .container-sm{
+#debug .container-big{
   
     width: 80%;
     margin: auto;
-    h1{
-
-        text-align: center;
-        font-size: 60px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    
-    }
 
 }
+#debug .container-sm{
+  
+    width: 70%;
+    margin: auto;
+
+}
+
 #debug .row{
-    min-height: 250px;
+    min-height: 650px;
     
     display: flex;
     flex-direction: row;
-    
-   
-
 }
 
 #debug .jumbotron{
@@ -61,6 +59,7 @@
 }
 
 #debug .col-4{
+    
     min-height: 100px;
     width: calc((100% / 12) * 4);
     p{
@@ -88,16 +87,15 @@
     
 }
 
+#debug .section_plan{
+    min-height: 1200px;
+
+}
+
+
+
 /* end debug area */
 
-
-.flex-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-}
 
 .menu-left{
     display: flex;
@@ -121,5 +119,30 @@
         line-height: 7px;
         margin-right: 1rem;
     }
+}
+
+#main-title{
+        text-align: center;
+        font-size: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+}
+
+.title-section_plan{
+    text-align: left;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.plan_options{
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    
+}
+.head-1st-plan{
+    text-align: center;
+    padding: 1rem 1rem;
+    
 }
 
