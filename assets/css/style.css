@@ -195,3 +195,16 @@
     
 }
 
+.get-in-touch{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    button{
+        color:black;
+        margin-top: 50px;
+        padding: .75rem .75rem;      
+        border: 1px solid black;
+        
+
+    }
+}
