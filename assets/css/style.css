@@ -18,49 +18,74 @@
 }
 
 #debug header{
-    background-color: orange;
+   
     border: 1px dashed;
     
 }
 
 #debug .flex-container{
     min-height: 50px;
-    background-color: aqua;
+    
 
 }
-#debug .jumbotron{
-    min-height: 500px;
-    background-color: red;
 
-}
 #debug .container-sm{
-   min-height:  300px;
-    background-color: green;
+  
     width: 80%;
     margin: auto;
+    h1{
+
+        text-align: center;
+        font-size: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
 
 }
 #debug .row{
     min-height: 250px;
-    background-color: yellow;
+    
     display: flex;
     flex-direction: row;
     
    
 
 }
-#debug .col-4{
-    min-height: 200px;
-    width: calc((100% / 12) * 4);
-    background-color: lightskyblue;
-    
-   
+
+#debug .jumbotron{
+    height: 600px;
+    background-color:var(--bg-primary)
+     
 
 }
+
+#debug .col-4{
+    min-height: 100px;
+    width: calc((100% / 12) * 4);
+    p{
+       padding: 0 1rem;
+    }
+
+    .long-button{
+        color: white;
+        background-color: var(--bg-button);
+        height: 40px;
+        padding: 1rem 1rem;
+        line-height: 7px;
+        margin-top: 30px;
+    }
+    div{
+        margin-top: 30px;
+    }
+}
+
+
 #debug .col-8{
+
     min-height: 200px;
     width: calc((100% / 12) * 8);
-    background-color: lightslategray;
+    
 }
 
 /* end debug area */
@@ -88,31 +113,13 @@
     }
 }
 
-.title-jumbotron{
-
-    text-align: center;
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-.col-4{
-    p{
-       padding: 0 1rem;
-    }
-
+.menu-right{
     button{
-        color: white;
+        color:white;
         background-color: var(--bg-button);
-        height: 40px;
-        padding: 1rem 1rem;
+        padding: .75rem .75rem;
         line-height: 7px;
-        margin-top: 30px;
-    }
-    div{
-        margin-top: 30px;
+        margin-right: 1rem;
     }
 }
-
 
