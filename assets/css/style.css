@@ -9,6 +9,18 @@
 :root{
     --bg-button:#0061ff;
     --bg-primary:#b4d0e7;
+    --bg-design-left: #a2d39b;
+    --bg-design-centre:#f5f5f5;
+    --bg-design-left-border:#a2d39b;
+    --bg--asu-left: #61082b;
+    --bg-florida-left: #0093ce;
+    --bg-troops-left: #ff1c1c;
+    --world-relief:#d5001f;
+    --lonely-planet:#0d2481;
+    --hearst: #b4d0e7;
+    --clear: #ffd830;
+    --bg-free-trial:#b4d0e7;
+    --text-free-trial:#61072b;
 }
 
 
@@ -231,19 +243,30 @@
     display: flex;
     flex-wrap: wrap;
     
+    
+    
+    
 
 }
 
 .left-container{
+    
+    
    
     width: calc((100% / 12) *2) ;
-    div{
+    .square1, .square2{
         aspect-ratio: 2/2;
-        background-color: #0061ff;
+        
+        text-align: center;
+        align-content: center;  
     }
     img{
         width: 60%;
-        justify-self: center;
-        
+        border-width: 10px ; 
     }
+    .square2{
+        background-color: var(--bg--asu-left);
+    }
+    .square1{background-color:var(--bg-design-left);}
 }
+
