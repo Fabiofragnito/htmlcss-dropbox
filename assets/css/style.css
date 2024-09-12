@@ -10,12 +10,18 @@
     --bg-button:#0061ff;
     --bg-primary:#b4d0e7;
 }
+
+
+[class^="col"]
+{padding: 1rem;}
+
+
 /* debug area */
 
 #debug *{
     border: 1px dashed;
 
-} */
+} 
 
 #debug header{
    
@@ -60,7 +66,7 @@
 
 #debug .col-4{
     
-    min-height: 1000px;
+    min-height: 1400px;
     width: calc((100% / 12) * 4);
     p{
        padding: 0 1rem;
@@ -82,8 +88,22 @@
 
 #debug .col-8{
 
-    min-height: 200px;
+    min-height: 600px;
     width: calc((100% / 12) * 8);
+    
+}
+#debug .col-12{
+
+    height: 350px;
+    width: calc((100% / 12) * 12);
+    
+    
+    
+}
+#debug .col-3{
+
+    min-height: 800px;
+    width: calc((100% / 12) * 3);
     
 }
 
@@ -164,3 +184,14 @@
     }
     
 }
+
+.head_enterprise{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+
