@@ -225,3 +225,25 @@
         font-weight: bold;
     }
 }
+
+.logos-conteiner{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.left-container{
+   
+    width: calc((100% / 12) *2) ;
+    div{
+        aspect-ratio: 2/2;
+        background-color: #0061ff;
+    }
+    img{
+        width: 60%;
+        justify-self: center;
+        
+    }
+}
