@@ -60,7 +60,7 @@
 
 #debug .col-4{
     
-    min-height: 100px;
+    min-height: 1000px;
     width: calc((100% / 12) * 4);
     p{
        padding: 0 1rem;
@@ -140,23 +140,24 @@
     justify-content: left;
     
 }
-.head-1st-plan{
+.head-plan{
     text-align: center;
     padding: 1rem 1rem;
+   
     
 }
 
-.price, .body-1st-plan, .end-1st-plan{
+.price, .body-plan, .end-plan{
     text-align: left;
     margin-left: 2rem;
 }
 
-.body-1st-plan{
+.body-plan{
     span{
         padding-left: 5px;
     }
 }
-.end-1st-plan{
+.end-plan{
     padding-top: 100px;
     h4{
         margin-bottom: 50px;
