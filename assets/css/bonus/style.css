@@ -1,0 +1,411 @@
+/* common area */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-button:#0061ff;
+    --bg-primary:#b4d0e7;
+    --bg-design-left: #a2d39b;
+    --bg-design-centre:#f5f5f5;
+    --bg-design-left-border:#a2d39b;
+    --bg--asu-left: #61082b;
+    --bg-florida-left: #0093ce;
+    --bg-troops-left: #ff1c1c;
+    --world-relief:#d5001f;
+    --lonely-planet:#0d2481;
+    --hearst: #b4d0e7;
+    --clear: #ffd830;
+    --bg-free-trial:#b4d0e7;
+    --text-free-trial:#61072b;
+}
+
+
+[class^="col"]
+{padding: 1rem;}
+
+
+/* debug area */
+
+/* #debug *{
+    border: 1px dashed;
+
+}  */
+
+
+
+
+.flex-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-big{
+  
+    width: 80%;
+    margin: auto;
+
+}
+.container-sm{
+  
+    width: 70%;
+    margin: auto;
+
+}
+
+.row{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.jumbotron{
+    height: 580px;
+    background-color:var(--bg-primary)
+}
+
+.long-button{
+    color: white;
+    background-color: var(--bg-button);
+    height: 40px;
+    padding: 1rem 2.5rem;
+    line-height: 7px;
+    margin-top: 60px;
+}
+.col-4{   
+    width: calc((100% / 12) * 4);
+    
+}
+
+
+.col-8{
+
+   
+    width: calc((100% / 12) * 8);
+    
+}
+.col-12{
+
+    min-height: 350px;
+    width: calc((100% / 12) * 12);
+    
+    
+    
+}
+.col-3{
+
+    min-height: 800px;
+    width: calc((100% / 12) * 3);
+    
+}
+
+/* .section_plan{
+    min-height: 1200px;
+
+} */
+
+
+
+/* end debug area */
+
+
+.menu-left{
+    display: flex;
+ align-items: center;
+}
+
+
+.menu-left, .menu-right{
+    
+    
+    a{padding: 1rem 1rem;text-decoration: none; 
+
+    }
+}
+
+.menu-right{
+    button{
+        color:white;
+        background-color: var(--bg-button);
+        padding: .75rem .75rem;
+        line-height: 7px;
+        margin-right: 1rem;
+    }
+}
+
+#main-title{
+        text-align: center;
+        font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+}
+
+.plan{
+    border: 1px groove lightgrey;
+    min-height:1200px;
+    hr{
+        border: 1px groove lightgrey;
+        margin: 2.5rem;
+        width: 60px;
+    }
+   
+}
+
+.title-section_plan{
+    text-align: left;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.plan_options{
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    
+}
+.head-plan{
+    text-align: center;
+    padding: 1rem 1rem;
+    border: 1px groove lightgrey;
+   
+    
+}
+
+.price, .body-plan, .end-plan{
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    /* padding: 2rem 0; */
+    
+}
+
+.price>div{
+    margin-top: 1rem;
+}
+    
+
+.body-plan div:last-child{
+    padding-top: 3rem;
+    
+    
+}
+.features{
+    margin-bottom: 1.5rem;
+}
+.end-plan{
+    
+    padding-top: 100px;
+    h4{
+        margin-bottom: 50px;
+    }
+    div{
+        padding-bottom: 2rem;
+    }
+    
+}
+.body_enterprise{
+    border: 1px groove lightgray ;
+
+}
+.head_enterprise{
+    text-align: center;
+    margin-top: 50px;
+    padding: 1rem 1rem;
+    border: 1px groove lightgray ;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.get-in-touch{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    button{
+        color:black;
+        margin-top: 50px;
+        padding: .75rem .75rem;      
+        border: 1px solid black;
+        
+
+    }
+}
+
+.operations{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    h2{font-size: 45px;
+        margin-bottom: 50px;
+        margin-left: 1rem;
+        
+    }
+    .subtitle-op{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+.logos-conteiner{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    
+    
+}
+
+
+    
+    
+   
+    
+    #logo1, #logo2, #logo3, #logo4, #logo5, #logo6, #logo9, #logo10{
+        width: 245px;
+        aspect-ratio: 1/1;
+        text-align: center;
+        align-content: center; 
+        
+        
+        img{
+            width: 60%; 
+    }
+    
+        
+    }
+    #logo1{
+        background-color: var(--bg-design-left);
+    }
+    #logo2{
+        background-color: var(--bg--asu-left);
+    }
+    #logo3{
+        background-color: var(--world-relief);
+    }
+    #logo4{
+        background-color: var(--hearst);
+    }
+    #logo5{
+        background-color: var(--bg-florida-left);
+    }
+    #logo6{
+        background-color: var(--bg-troops-left);
+    }
+
+    #logo7, #logo8{
+        width:277.5px;
+        aspect-ratio: 1/1;
+        background-color: var(--bg-design-centre);
+    }
+    #logo9{
+        background-color: var(--lonely-planet);
+    }
+    #logo10{
+        background-color: var(--clear);
+    }
+
+    .logo-large{
+        width: 555px;
+
+        padding: 2rem 2rem;
+        text-align: left;
+        align-content: center; 
+        background-color: var(--bg-design-centre);
+        
+        img{
+            width: 40%; 
+    }
+    p{
+        margin-top: 40px;
+    }
+
+    }
+    .call2-act{
+        background-color: var(--bg-primary);
+        h1{
+            margin-top: 150px;
+            font-size: 50px;
+
+        }
+       
+    }
+
+    #free-trial-btn{
+        
+        background-color: white;
+        height: 40px;
+        padding: 1rem 2.5rem;
+        line-height: 7px;
+        margin-top: 60px;
+        margin-top: 160px;
+    }
+
+    .faq{margin-bottom: 50px;
+        h1{
+            margin-top: 150px;
+            font-size: 45px;
+
+        }
+
+    }
+    .question{
+        display: flex;justify-content: space-between;
+    }
+
+hr{
+    border: 2px solid black;
+   margin-bottom: 50px;
+}
+
+.footer-links{
+    padding: 1rem 1rem;
+    margin-top: 70px;
+    
+
+    ul{
+        list-style: none;
+        padding: 2rem 0;
+        li{
+            margin-bottom: 1rem;
+            font-weight: bold ;
+        }
+    }
+}
+
+.top-footer{
+    min-height: 600px;
+    color: white;
+   background-color: black;
+    margin-top: 100px;
+    hr{
+        border: 1px groove lightgrey;
+        margin-top: 4.5rem;
+        width: 160px;
+        margin-left: 170px;
+    }
+    
+}
+
+.select-lang{
+    display: flex;
+    align-items: flex-start;
+    vertical-align: middle;
+    color: gray;
+    margin-left: 10rem;
+    
+    i, div{
+        padding: 0.25rem;
+        font-size: 18px;
+    }
+}
