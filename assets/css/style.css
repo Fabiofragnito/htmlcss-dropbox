@@ -149,7 +149,12 @@
 
 .plan{
     border: 1px groove lightgrey;
-    min-height: 900px;
+    min-height:1200px;
+    hr{
+        border: 1px groove lightgrey;
+        margin: 2.5rem;
+        width: 60px;
+    }
    
 }
 
@@ -190,6 +195,9 @@
     
     
 }
+.features{
+    margin-bottom: 1.5rem;
+}
 .end-plan{
     
     padding-top: 100px;
@@ -201,11 +209,15 @@
     }
     
 }
+.body_enterprise{
+    border: 1px groove lightgray ;
 
+}
 .head_enterprise{
     text-align: center;
     margin-top: 50px;
     padding: 1rem 1rem;
+    border: 1px groove lightgray ;
 }
 .container-flex{
     display: flex;
@@ -247,7 +259,7 @@
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    
     
     
     
@@ -260,7 +272,7 @@
    
     
     #logo1, #logo2, #logo3, #logo4, #logo5, #logo6, #logo9, #logo10{
-        width: 240px;
+        width: 245px;
         aspect-ratio: 1/1;
         text-align: center;
         align-content: center; 
@@ -376,6 +388,24 @@ hr{
     color: white;
    background-color: black;
     margin-top: 100px;
-    margin-top: 100px;
+    hr{
+        border: 1px groove lightgrey;
+        margin-top: 4.5rem;
+        width: 160px;
+        margin-left: 170px;
+    }
+    
 }
 
+.select-lang{
+    display: flex;
+    align-items: flex-start;
+    vertical-align: middle;
+    color: gray;
+    margin-left: 10rem;
+    
+    i, div{
+        padding: 0.25rem;
+        font-size: 18px;
+    }
+}
