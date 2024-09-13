@@ -43,7 +43,7 @@
 
 
 #debug .flex-container{
-    height: 50px;
+    /* min-height: 50px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -334,7 +334,7 @@
         margin-top: 160px;
     }
 
-    .faq{margin-bottom: 200px;
+    .faq{margin-bottom: 50px;
         h1{
             margin-top: 150px;
             font-size: 45px;
@@ -350,3 +350,27 @@ hr{
     border: 2px solid black;
    margin-bottom: 50px;
 }
+
+.footer-links{
+    padding: 1rem 1rem;
+    margin-top: 70px;
+    
+
+    ul{
+        list-style: none;
+        padding: 2rem 0;
+        li{
+            margin-bottom: 1rem;
+            font-weight: bold ;
+        }
+    }
+}
+
+.top-footer{
+    min-height: 600px;
+    color: white;
+   background-color: black;
+    margin-top: 100px;
+    margin-top: 100px;
+}
+
