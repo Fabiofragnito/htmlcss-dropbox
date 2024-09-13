@@ -242,31 +242,57 @@
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     
     
     
     
-
 }
 
-.left-container{
+
     
     
    
-    width: calc((100% / 12) *2) ;
-    .square1, .square2{
-        aspect-ratio: 2/2;
-        
+    
+    #logo1, #logo2, #logo3, #logo4{
+        width: 240px;
+        aspect-ratio: 1/1;
         text-align: center;
-        align-content: center;  
+        align-content: center; 
+        
+        
+        img{
+            width: 60%; 
     }
-    img{
-        width: 60%;
-        border-width: 10px ; 
+    
+        
     }
-    .square2{
+    #logo1{
+        background-color: var(--bg-design-left);
+    }
+    #logo2{
         background-color: var(--bg--asu-left);
     }
-    .square1{background-color:var(--bg-design-left);}
-}
+    #logo3{
+        background-color: var(--world-relief);
+    }
+    #logo4{
+        background-color: var(--hearst);
+    }
+
+    .logo-large{
+        width: 555px;
+        padding: 2rem 2rem;
+        text-align: left;
+        align-content: center; 
+        background-color: var(--bg-design-centre);
+        
+        img{
+            width: 40%; 
+    }
+    p{
+        margin-top: 40px;
+    }
+
+    }
 
