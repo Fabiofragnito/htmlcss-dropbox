@@ -254,7 +254,7 @@
     
    
     
-    #logo1, #logo2, #logo3, #logo4{
+    #logo1, #logo2, #logo3, #logo4, #logo5, #logo6, #logo9, #logo10{
         width: 240px;
         aspect-ratio: 1/1;
         text-align: center;
@@ -279,9 +279,28 @@
     #logo4{
         background-color: var(--hearst);
     }
+    #logo5{
+        background-color: var(--bg-florida-left);
+    }
+    #logo6{
+        background-color: var(--bg-troops-left);
+    }
+
+    #logo7, #logo8{
+        width:277.5px;
+        aspect-ratio: 1/1;
+        background-color: var(--bg-design-centre);
+    }
+    #logo9{
+        background-color: var(--lonely-planet);
+    }
+    #logo10{
+        background-color: var(--clear);
+    }
 
     .logo-large{
         width: 555px;
+
         padding: 2rem 2rem;
         text-align: left;
         align-content: center; 
