@@ -67,16 +67,22 @@
 
 .jumbotron{
     height: 580px;
-    background-color:var(--bg-primary)
+    background-color:var(--bg-primary);
+    
 }
 
 .long-button{
     color: white;
     background-color: var(--bg-button);
-    height: 40px;
-    padding: 1rem 2.5rem;
+    padding: 1rem;
     line-height: 7px;
     margin-top: 60px;
+    width: 250px;
+    text-align: center;
+}
+.long-button:hover{
+    background-color: lightgray;
+    color: gray;
 }
 .col-4{   
     width: calc((100% / 12) * 4);
@@ -136,9 +142,12 @@
         padding: .75rem .75rem;
         line-height: 7px;
         margin-right: 1rem;
+
     }
 }
-
+.call-2-act:hover {
+    background-color: var(--bg-primary);
+}
 #main-title{
         text-align: center;
         font-size: 60px;
@@ -163,10 +172,44 @@
     margin-top: 200px;
     font-size: 50px;
 }
-.plan_options{
+
+.mb{
+    
+margin-bottom: 50px;}
+.my{
     margin-top: 100px;
-    display: flex;
-    justify-content: left;
+}
+
+.plan_options{ 
+    display: flex;   
+      
+}
+    
+
+.circle{
+    display: inline-block;
+    width: 1.25rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    border: 1px groove lightgray; 
+}
+
+.yearly{
+    margin-left: 4rem;
+    
+}
+
+
+
+.circle-active{ 
+    display: inline-block;
+    width: 1.25rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    border: 4px solid var(--bg-button);
+    
     
 }
 .head-plan{
@@ -280,6 +323,8 @@
         
         img{
             width: 60%; 
+            
+
     }
     
         
@@ -349,6 +394,9 @@
         line-height: 7px;
         margin-top: 60px;
         margin-top: 160px;
+    }
+    #free-trial-btn:hover{
+        background-color: lightgray;
     }
 
     .faq{margin-bottom: 50px;

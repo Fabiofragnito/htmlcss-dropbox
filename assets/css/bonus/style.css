@@ -409,3 +409,10 @@ hr{
         font-size: 18px;
     }
 }
+
+@media screen and (min-width: 965px){
+    header{
+        background-color: #61072b;
+    }
+}
+    
